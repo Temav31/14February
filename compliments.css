@@ -1,0 +1,33 @@
+.compliments {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.compliments__block {
+    width: auto;
+    border: 4px solid rgb(129, 214, 240);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.compliments__image {
+    height: 500px;
+    margin: 10px 0;
+}
+
+.compliments__title {
+    margin: 0;
+}
+
+.compliments__apologies {
+    text-align: center;
+}
+
+.compliments__big-title {
+    color: rgb(252, 8, 24);
+    margin-bottom: 10px;
+}
